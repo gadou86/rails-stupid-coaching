@@ -2,21 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .container {
-  margin: 20px
+  margin: 20px;
 }
 
 h1 {
   font-family: helvetica;
   font-weight: 500;
+  text-align: center;
 }
 .answer {
   background-color: lightyellow;
   padding: 16px;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 p {
   font-family: helvetica;
   font-weight: 200;
+  text-align: center;
 }
 
 .button {
@@ -29,6 +34,11 @@ p {
  font-family: helvetica;
  font-size: 23px;
  
+}
+
+.form {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .input {
